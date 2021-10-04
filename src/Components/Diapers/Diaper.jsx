@@ -31,7 +31,7 @@ function Diaper(props) {
       <div className="diaperDisplay">
         <h2>{data.name}</h2>
         <h3>{data.type}</h3>
-        <a href={`/diaper/${data.id}`}>
+        <a href={`https://nftparents.herokuapp.com//diaper/${data.id}`}>
           <img src={data.photo_url} alt="diaper" />
         </a>
         <div>{/* <Link to={`/diaper/${data.id}`} >Diaper's Info</Link> */}</div>
