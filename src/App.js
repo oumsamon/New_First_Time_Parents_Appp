@@ -26,7 +26,7 @@ function App() {
           <Route exact path="/diaper" component={Diaper} />
           <Link to="/diaper">Diaper</Link>
           <Route exact path="/diaper/:id/" component={DiaperDetail} />
-          <Route exact path="/diaper/diaper/:id/update" component={UpdateDaiper} />
+          <Route exact path="/:id/update" component={UpdateDaiper} />
 
           <Route exact path="/diaper/add" component={AddDiaper} />
         </div>
